@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+service FileTransfer {
+  rpc Transfer(stream TransferReq) returns (stream TransferResp) {};
+}
+
+message TransferReq {
+}
+
+message TransferResp {
+}

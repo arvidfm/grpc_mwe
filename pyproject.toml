@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "grpc-mwe"
+version = "0.1.0"
+description = ""
+authors = ["afm <885076+arvidfm@users.noreply.github.com>"]
+packages = [{include = "grpc_mwe"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+grpcio = "^1.57.0"
+protobuf = "^4.24.1"
+grpcio-tools = "^1.57.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
